@@ -4,7 +4,7 @@ export default class UserName extends Component{
   render(){
     return (
       <div>
-        <h3>Hello new User!</h3>
+        <h3>Hello {this.props.user}</h3>
         <p>Adding some more changes to code from master branch...</p>
       </div>
     )

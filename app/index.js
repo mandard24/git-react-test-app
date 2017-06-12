@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import TestComponent from './js/components/TestComponent.js';
+import TestComponent from './js/components/TestComponent';
 
 class App extends Component {
   render () {
