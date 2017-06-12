@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "test project to understand git terminal",
   "main": "index.js",
+  "homepage": "https://github.com/mandard24/git-react-test-app",
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "start1": "webpack-dev-server --hot --inline",
-    "start": "node server"
+    "start": "node server",
+    "prod": "NODE_ENV=production webpack -p --config webpack.production.config.js"
   },
   "repository": {
     "type": "git",
